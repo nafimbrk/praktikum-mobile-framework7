@@ -1,0 +1,156 @@
+<template>
+  <div class="page page-home">
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="left"></div>
+        <div class="title">
+          <img src="img/notedmoney.png" class="logo-apps" />
+        </div>
+        <div class="right">
+          <a href="#" class="link"
+            ><i class="icon f7-icons text-color-white">ellipsis_vertical</i></a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="fab fab-center-bottom fab-morph" style="background-color: white; bottom: 20px; box-shadow: none;">
+      <a>
+      <i class="icon f7-icons" style="color: #34495e; font-size: 50px; ">square_grid_2x2_fill</i>
+      </a>
+      </div>
+    <div class="toolbar tabbar tabbar-icons toolbar-bottom toolbar-center">
+      <div class="toolbar-inner">
+        <a href="#tab-beranda" class="tab-link tab-link-active">
+          <i class="icon f7-icons">house</i>
+          <span class="tabbar-label">Beranda</span>
+        </a>
+        <a href="javascript: void(0)" class="tab-link" disabled></a>
+        <a href="#tab-transaksi" class="tab-link">
+          <i class="icon f7-icons"
+            >money_dollar<span class="badge color-red">5</span></i
+          >
+          <span class="tabbar-label">Transaksi</span>
+        </a>
+      </div>
+    </div>
+    <div class="tabs">
+      <div id="tab-beranda" class="page-content tab tab-active">
+        <div class="card" style="margin-top: 0px">
+          <div class="card-content card-content-padding text-align-center">
+            <font class="font22" id="bloktglskr"
+              >Senin, 02 Maret 2025<br />05:04:33</font
+            >
+            <div class="row grid grid-cols-5 grid-gap" style="margin-top: 15px">
+              <a href="#" id="btnmap">
+                <img src="img/gmaps.png" class="besar-icon100" />
+              </a>
+              <a href="#" id="btnfb">
+                <img src="img/facebook.png" class="besar-icon100" />
+              </a>
+              <a href="#" id="btnig">
+                <img src="img/instagram.png" class="besar-icon100" />
+              </a>
+              <a href="#" id="btnwa">
+                <img src="img/whatsapp.png" class="besar-icon100" />
+              </a>
+              <a href="#" id="btntw">
+                <img src="img/twitter.png" class="besar-icon100" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <swiper-container
+          pagination
+          class="demo-swiper-multiple ml-15 mr-15 color-white"
+          space-between="50"
+          data-loop="true"
+          autoplay
+        >
+          <swiper-slide
+            class="radius15 text-color-white"
+            style="background: #b71c1c"
+            >Iklan 1</swiper-slide
+          >
+          <swiper-slide
+            class="radius15 text-color-white"
+            style="background: #01579b"
+            >Iklan 2</swiper-slide
+          >
+          <swiper-slide
+            class="radius15 text-color-white"
+            style="background: #880e4f"
+            >Iklan 3</swiper-slide
+          >
+          <swiper-slide
+            class="radius15 text-color-white"
+            style="background: #006064"
+            >Iklan 4</swiper-slide
+          >
+          <swiper-slide
+            class="radius15 text-color-white"
+            style="background: #ff6f00"
+            >Iklan 5</swiper-slide
+          >
+        </swiper-container>
+        <div class="row grid grid-cols-3" style="margin-top: -20px">
+          <a href="#" class="text-align-center font18 text-color-black">
+            <div class="card text-align-center">
+              <div class="card-content card-content-padding">
+                <img src="img/bag.png" class="besar-icon80" /><br />Menu 1
+              </div>
+            </div>
+          </a>
+          <a href="#" class="text-align-center font18 text-color-black">
+            <div class="card text-align-center">
+              <div class="card-content card-content-padding">
+                <img src="img/bag.png" class="besar-icon80" /><br />Menu 2
+              </div>
+            </div>
+          </a>
+          <a href="#" class="text-align-center font18 text-color-black">
+            <div class="card text-align-center">
+              <div class="card-content card-content-padding">
+                <img src="img/bag.png" class="besar-icon80" /><br />Menu 3
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="row grid grid-cols-3" style="margin-top: -10px">
+          <a href="#" class="text-align-center font18 text-color-black">
+            <div class="card text-align-center">
+              <div class="card-content card-content-padding">
+                <img src="img/bag.png" class="besar-icon80" /><br />Menu 1
+              </div>
+            </div>
+          </a>
+          <a href="#" class="text-align-center font18 text-color-black">
+            <div class="card text-align-center">
+              <div class="card-content card-content-padding">
+                <img src="img/bag.png" class="besar-icon80" /><br />Menu 2
+              </div>
+            </div>
+          </a>
+          <a href="#" class="text-align-center font18 text-color-black">
+            <div class="card text-align-center">
+              <div class="card-content card-content-padding">
+                <img src="img/bag.png" class="besar-icon80" /><br />Menu 3
+              </div>
+            </div>
+          </a>
+        </div>
+        <br /><br />
+      </div>
+      <div id="tab-transaksi" class="page-content tab">
+        <div class="card skeleton-text skeleton-effect-wave">
+          <div class="card-header">Card Header</div>
+          <div class="card-content card-content-padding">
+            Percobaan Teks untuk div Skeleton Ghost. Percobaan Teks untuk div
+            Skeleton Ghost. Percobaan Teks untuk div Skeleton Ghost.
+          </div>
+          <div class="card-footer">Card Footer</div>
+        </div>
+      </div>
+      <div id="tab-riwayat" class="page-content tab"></div>
+    </div>
+  </div>
+</template>

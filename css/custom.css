@@ -4,6 +4,12 @@
   background-color: white;
 }
 
+/* Menimpa background hanya jika ada class tambahan */
+.page.no-bg {
+  background: none;
+  background-color: white; /* atau bisa transparan kalau kamu mau */
+}
+
 .logo-apps {
   height: 60px;
 }
@@ -66,3 +72,80 @@
 .bold {
   font-weight: bold;
 }
+
+.bg-bca {
+  background: linear-gradient(135deg, #004ba0, #1976d2, #00e5ff);
+
+}
+
+
+
+.logo-bca {
+  height: 70px;
+}
+
+.lingkaran-foto {
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* biar ada jarak dikit kalau perlu */
+}
+
+.text-saldo {
+  font-size: 25px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.bg2 {
+  background: linear-gradient(135deg, #f8f0f0, #999999);
+
+}
+
+
+.card-atas {
+  position: relative;
+  top: -60px;
+  z-index: 2;
+  padding-bottom: 1px !important;
+}
+
+.logo-ganda {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 60px;
+  position: relative;
+  margin-right: 13px;
+}
+
+.lingkaran {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+  top: 20px; /* 🔽 geser semua lingkaran agak ke bawah */
+}
+
+.lingkaran:first-child {
+  background-color: #ec2a2a;
+}
+
+.lingkaran:last-child {
+  background-color: #fdc705;
+  margin-left: -25px;
+}
+
+
+
+

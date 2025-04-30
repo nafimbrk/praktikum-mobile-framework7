@@ -1,151 +1,141 @@
+.besar-icon80 {width: 80%;}
+.besar-icon100 {width: 100%;}
+.font16 {font-size: 16px;}
+.font18 {font-size: 18px;}
+.font20 {font-size: 20px;}
+.font22 {font-size: 22px;}
+.font32 {font-size: 32px;}
+.radius15 {border-radius: 15px;}
+.pad10 {padding: 10px;}
+.ml-15 {margin-left: 15px;}
+.mr-15 {margin-right: 15px;}
+.bold {font-weight: bold;}
+
+
 .page {
-  background: url("../img/wave.svg");
-  background-size: cover;
-  background-color: white;
+    background: url('../img/wave.svg');
+    background-size: cover;
+    background-color: white;
 }
 
 /* Menimpa background hanya jika ada class tambahan */
 .page.no-bg {
-  background: none;
-  background-color: white; /* atau bisa transparan kalau kamu mau */
-}
+    background: none;
+    background-color: white; /* atau bisa transparan kalau kamu mau */
+  }
 
 .logo-apps {
-  height: 60px;
+    height: 60px;
 }
 
 .toolbar-center {
-  height: 65px;
-  background: #34495e;
-}
-.toolbar-inner .tab-link {
-  color: white;
-}
-.toolbar-inner .tab-link .icon {
-  font-size: 24px;
-  transition: all 0.3s;
-}
-.toolbar-inner .tab-link .tabbar-label {
-  display: none;
-  transition: all 0.3s;
-}
-.toolbar-inner .tab-link-active .tabbar-label {
-  display: block;
-}
-.toolbar-inner .tab-link:not(.tab-link-active) .icon {
-  font-size: 36px;
+    height: 65px;
+    background: #34495e;
 }
 
-.besar-icon80 {
-  width: 80%;
+.toolbar-inner .tab-link{
+    color: white;
 }
-.besar-icon100 {
-  width: 100%;
+
+.toolbar-inner .tab-link .icon{
+    font-size: 24px;
+    transition: all 0.3s;
 }
-.font16 {
-  font-size: 16px;
+
+.toolbar-inner .tab-link .tabbar-label{
+    display: none;
+    transition: all 0.3s;
 }
-.font18 {
-  font-size: 18px;
+
+.toolbar-inner .tab-link-active .tabbar-label{
+    display: block;
 }
-.font20 {
-  font-size: 20px;
+
+.toolbar-inner .tab-link:not(.tab-link-active) .icon{
+    font-size: 36px;
 }
-.font22 {
-  font-size: 22px;
+
+.gambar_tengah{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.font32 {
-  font-size: 32px;
-}
-.radius15 {
-  border-radius: 15px;
-}
-.pad10 {
-  padding: 10px;
-}
-.ml-15 {
-  margin-left: 15px;
-}
-.mr-15 {
-  margin-right: 15px;
-}
-.bold {
-  font-weight: bold;
-}
+
 
 .bg-bca {
-  background: linear-gradient(135deg, #004ba0, #1976d2, #00e5ff);
-
-}
-
-
-
-.logo-bca {
-  height: 70px;
-}
-
-.lingkaran-foto {
-  width: 70px;
-  height: 70px;
-  border-radius: 100%;
-  object-fit: cover;
-}
-
-.align-center {
-  display: flex;
-  align-items: center;
-  gap: 8px; /* biar ada jarak dikit kalau perlu */
-}
-
-.text-saldo {
-  font-size: 25px;
-  margin: 0;
-  display: flex;
-  align-items: center;
-  height: 100%;
-}
-
-.bg2 {
-  background: linear-gradient(135deg, #f8f0f0, #999999);
-
-}
-
-
-.card-atas {
-  position: relative;
-  top: -60px;
-  z-index: 2;
-  padding-bottom: 1px !important;
-}
-
-.logo-ganda {
-  display: flex;
-  justify-content: end;
-  align-items: end;
-  margin-top: 0;
-  padding-top: 0;
-  margin-bottom: 60px;
-  position: relative;
-  margin-right: 13px;
-}
-
-.lingkaran {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  position: relative;
-  top: 20px; /* 🔽 geser semua lingkaran agak ke bawah */
-}
-
-.lingkaran:first-child {
-  background-color: #ec2a2a;
-}
-
-.lingkaran:last-child {
-  background-color: #fdc705;
-  margin-left: -25px;
-}
-
-
-
-
+    background: linear-gradient(135deg, #004ba0, #1976d2, #00e5ff);
+  
+  }
+  
+  
+  
+  .logo-bca {
+    height: 70px;
+  }
+  
+  .lingkaran-foto {
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  
+  .align-center {
+    display: flex;
+    align-items: center;
+    gap: 8px; /* biar ada jarak dikit kalau perlu */
+  }
+  
+  .text-saldo {
+    font-size: 25px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .bg2 {
+    background: linear-gradient(135deg, #f8f0f0, #999999);
+  
+  }
+  
+  
+  .card-atas {
+    position: relative;
+    top: -60px;
+    z-index: 2;
+    padding-bottom: 1px !important;
+  }
+  
+  .logo-ganda {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 0;
+    padding-top: 0;
+    margin-bottom: 60px;
+    position: relative;
+    margin-right: 13px;
+  }
+  
+  .lingkaran {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    top: 20px; /* 🔽 geser semua lingkaran agak ke bawah */
+  }
+  
+  .lingkaran:first-child {
+    background-color: #ec2a2a;
+  }
+  
+  .lingkaran:last-child {
+    background-color: #fdc705;
+    margin-left: -25px;
+  }
+  
+  
+  
+  
+  
